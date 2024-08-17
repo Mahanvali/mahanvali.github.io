@@ -56,6 +56,10 @@ export default function Home() {
           <FaLinkedin size={30} />
         </a>
       </footer>
+
+      <footer className="w-full bg-neutral-900 ml-96 flex justify-center mt-64 mb-6">
+        Website inspiration from <a href="https://loom4k.me" className="font-bold text-green-500"></a>
+      </footer>
         
 
       </div>
@@ -82,7 +86,7 @@ export default function Home() {
           I started off by using <span className="font-bold text-yellow-500 text-lg">Javascript</span> to make <span className="font-bold text-sky-500 text-lg">Discord Bots</span> in my free time.
           Later, when I started using <span className="font-bold text-sky-500 text-lg">Linux</span>, I discovered a deep interest in software development
           and eventually math in high school! I&apos;m extremely passionate about learning and studying, and have been dedicating all my efforts to
-          getting into an amazing College.
+          getting into an amazing college.
           </p>
 
           {/* <h2 className="font-mono text-6xl ml-8 text-white mt-32 max-w-lg">
