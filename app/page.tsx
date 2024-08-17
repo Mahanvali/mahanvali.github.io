@@ -63,7 +63,7 @@ export default function Home() {
 
       <div className="ml-24 mt-20">
         <Image
-          src="/IMG_6388.jpg"
+          src="/IMG_6388.JPG"
           alt="Hello! This is an image of me!"
           width={600}
           height={600}
