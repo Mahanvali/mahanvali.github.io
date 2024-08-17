@@ -7,7 +7,10 @@ import { VscVscode } from "react-icons/vsc";
 export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-900 flex flex-row items-start">
-      <div className="ml-12 mt-48">
+      <div className="ml-12">
+          <p className="font-mono text-xl mb-2 text-white max-w-md mb-24 mt-8">
+            Inspired By <a href="https://loom4k.me" className="font-bold text-green-500">loom4k.me</a>
+          </p>
         <h1 className="text-5xl font-mono mb-2 text-white max-w-md">
           Mahan Mohammadvali
         </h1>
@@ -56,10 +59,6 @@ export default function Home() {
           <FaLinkedin size={30} />
         </a>
       </footer>
-
-      <footer className="w-full bg-neutral-900 ml-96 flex justify-center mt-64 mb-6">
-        Website inspiration from <a href="https://loom4k.me" className="font-bold text-green-500"></a>
-      </footer>
         
 
       </div>
@@ -104,7 +103,7 @@ export default function Home() {
 const IconGrid = () => {
   return (
     
-    <div className="bg-neutral-900 flex items-center justify-center mt-48 mr-24">
+    <div className="bg-neutral-900 flex items-center justify-center mt-36 mr-24">
       <div className="grid grid-cols-3 gap-4">
         <div className="bg-neutral-800 rounded-lg p-6 flex items-center justify-center transition transform hover:scale-110">
           <FaJava size={40} className="text-sky-500" />
