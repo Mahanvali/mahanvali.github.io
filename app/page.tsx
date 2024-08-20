@@ -8,12 +8,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-900 flex flex-row items-start">
       <div className="ml-12">
-        <p className=" text-xl mb-2 text-white max-w-md mb-24 mt-8">
-          Inspired By{" "}
-          <a href="https://loom4k.me" className="font-bold text-green-500">
-            loom4k.me
-          </a>
-        </p>
+          <p className=" text-xl mb-2 text-white max-w-md mb-24 mt-8">
+            Inspired By <a href="https://loom4k.me" className="font-bold text-green-500">loom4k.me</a>
+          </p>
         <h1 className="text-5xl  mb-2 text-white max-w-md">
           Mahan Mohammadvali
         </h1>
@@ -23,113 +20,80 @@ export default function Home() {
         </p>
 
         <p className="text-white max-w-md ">
-          Hi! I&apos;m a self taught software developer based in Iran 🇮🇷.
-          I&apos;ve been programming since 2020 and I&apos;m currently working
-          with <span className="font-bold text-blue-500 text-lg">C++</span> and{" "}
-          <span className="font-bold text-orange-500 text-lg">Java </span>I love
-          making and contributing to open source projects, check out my{" "}
-          <a
-            href="https://github.com/Mahanvali"
-            className="font-bold text-sky-500"
-          >
-            {" "}
-            GitHub
-          </a>
-          ! I love math and I also enjoy making{" "}
-          <a
-            href="https://youtube.com/@Mahanvalied"
-            className="font-bold text-sky-500"
-          >
-            {" "}
-            Youtube
-          </a>{" "}
-          videos related to programming!
+          Hi! I&apos;m a self taught software developer based in Iran 🇮🇷. I&apos;ve been programming 
+          since 2020 and I&apos;m currently working
+          with <span className="font-bold text-blue-500 text-lg">C++</span> and <span className="font-bold text-orange-500 text-lg">Java </span>
+          I love making and contributing to open source projects, check out my <a href="https://github.com/Mahanvali" className="font-bold text-sky-500"> GitHub</a>! I love math and
+          I also enjoy making <a href="https://youtube.com/@Mahanvalied" className="font-bold text-sky-500"> Youtube</a> videos related to programming!
         </p>
 
         <div className="mt-48 mb-36 ">
-          <LanguageProgressBars />
+          <LanguageProgressBars/>
         </div>
 
         <h2 className=" text-6xl text-white max-w-lg mb-16">
-          Not coding<span className="text-sky-500">?</span>
+          Not coding<span className="text-sky-500">?</span> 
         </h2>
-
+        
         <p className=" text-white max-w-md mb-4">
-          If I&apos;m not coding, I&apos;m most likely{" "}
-          <span className="text-sky-500 text-lg">biking</span> 🚴 to take care
-          of myself, playing{" "}
-          <span className="text-sky-500 text-lg">balatro</span> 🃏 or{" "}
-          <span className="text-sky-500 text-lg">chess</span> ♟️, watching a{" "}
-          <span className="text-sky-500 text-lg">youtube</span> 📺 video for
-          entertainment or information, 3d modelling using{" "}
-          <span className="text-sky-500 text-lg">blender</span> 🧊, or{" "}
-          <span className="text-sky-500 text-lg">studying</span> 📖 for an exam.
+          If I&apos;m not coding, I&apos;m most likely <span className="text-sky-500 text-lg">biking</span> 🚴 to take care of myself,
+          playing <span className="text-sky-500 text-lg">balatro</span> 🃏 or <span className="text-sky-500 text-lg">chess</span> ♟️,
+          watching a <span className="text-sky-500 text-lg">youtube</span> 📺 video for entertainment or information,
+          3d modelling using <span className="text-sky-500 text-lg">blender</span> 🧊,
+          or <span className="text-sky-500 text-lg">studying</span> 📖 for an exam.
         </p>
 
         <p className="text-white max-w-md ">
-          Coding can be distracing and stressful at times, and it&apos;s always
-          important to take care of your physical and mental health.
+        Coding can be distracing and stressful at times, and it&apos;s always
+        important to take care of your physical and mental health.
         </p>
 
         <footer className="w-full bg-neutral-900 ml-96 flex justify-center mt-64 mb-6">
-          <a href="https://github.com/Mahanvali" className="mx-4 text-white">
-            <FaGithub size={30} />
-          </a>
-          <a
-            href="https://youtube.com/@Mahanvalied"
-            className="mx-4 text-white"
-          >
-            <FaYoutube size={30} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mahan-mohammadvali-1683362a6/"
-            className="mx-4 text-white"
-          >
-            <FaLinkedin size={30} />
-          </a>
-        </footer>
+        <a href="https://github.com/Mahanvali" className="mx-4 text-white">
+          <FaGithub size={30} />
+        </a>
+        <a href="https://youtube.com/@Mahanvalied" className="mx-4 text-white">
+          <FaYoutube size={30} />
+        </a>
+        <a href="https://www.linkedin.com/in/mahan-mohammadvali-1683362a6/" className="mx-4 text-white">
+          <FaLinkedin size={30} />
+        </a>
+      </footer>
+        
+
       </div>
+      
 
-      <div className="right-0 top-0 h-full w-1/2 p-8">
-        <div className="ml-24 mt-20">
-          <Image
-            src="/IMG_6388.JPG"
-            alt="Hello! This is an image of me!"
-            width={600}
-            height={600}
-            className="ml-auto rounded-xl transition transform hover:scale-110"
-          />
-          <div className="mt-36 ml-20 mb-64">
-            <h2 className="text-6xl text-white mt-44 max-w-lg mb-12">
-              How did I get here<span className="text-sky-500">?</span>
-            </h2>
+      <div className="ml-24 mt-20">
+        <Image
+          src="/IMG_6388.JPG"
+          alt="Hello! This is an image of me!"
+          width={600}
+          height={600}
+          className="ml-auto rounded-xl transition transform hover:scale-110"
+        />
+        <div className="mt-36 ml-20 mb-64">
 
-            <p className="text-white max-w-md">
-              I was lucky enough to have grown up using computers and during
-              2020, when the pandemic had started, I got extremely bored and
-              decided to start watching programming tutorials on YouTube. I
-              started off by using{" "}
-              <span className="font-bold text-yellow-500 text-lg">
-                Javascript
-              </span>{" "}
-              to make{" "}
-              <span className="font-bold text-sky-500 text-lg">
-                Discord Bots
-              </span>{" "}
-              in my free time. Later, when I started using{" "}
-              <span className="font-bold text-sky-500 text-lg">Linux</span>, I
-              discovered a deep interest in software development and eventually
-              math in high school! I&apos;m extremely passionate about learning
-              and studying, and have been dedicating all my efforts to getting
-              into an amazing college.
-            </p>
+        <h2 className=" text-6xl text-white mt-44 max-w-lg mb-12">
+          How did I get here<span className="text-sky-500">?</span> 
+        </h2>
 
-            {/* <h2 className=" text-6xl ml-8 text-white mt-32 max-w-lg">
-        Tech Stack
-      </h2> */}
+        <p className=" text-white max-w-md">
+          I was lucky enough to have grown up using computers 
+          and during 2020, when the pandemic had started, 
+          I got extremely bored and decided to start watching programming tutorials on YouTube. 
+          I started off by using <span className="font-bold text-yellow-500 text-lg">Javascript</span> to make <span className="font-bold text-sky-500 text-lg">Discord Bots</span> in my free time.
+          Later, when I started using <span className="font-bold text-sky-500 text-lg">Linux</span>, I discovered a deep interest in software development
+          and eventually math in high school! I&apos;m extremely passionate about learning and studying, and have been dedicating all my efforts to
+          getting into an amazing college.
+          </p>
 
-            <IconGrid />
-          </div>
+          {/* <h2 className=" text-6xl ml-8 text-white mt-32 max-w-lg">
+            Tech Stack
+          </h2> */}
+
+          <IconGrid />
+
         </div>
       </div>
     </div>
