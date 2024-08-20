@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <p className="text-white max-w-md font-mono">
-          Hi! I&apos;m a 14 year old self taught software developer based in Iran 🇮🇷. I&apos;ve been programming 
+          Hi! I&apos;m a self taught software developer based in Iran 🇮🇷. I&apos;ve been programming 
           since 2020 and I&apos;m currently working
           with <span className="font-bold text-blue-500 text-lg">C++</span> and <span className="font-bold text-orange-500 text-lg">Java </span>
           I love making and contributing to open source projects, check out my <a href="https://github.com/Mahanvali" className="font-bold text-sky-500"> GitHub</a>! I love math and
