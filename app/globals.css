@@ -6,6 +6,18 @@
 @layer base {
   html {
     font-family: "IBM Plex Mono";
-    background-color: #171717;
+    background-image: url(https://i.postimg.cc/y8b6Y8TC/440cef314f679adba15d7047c47c3661.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .profile {
+    padding: 4px;
+    backdrop-filter: blur(20px);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow for edge */
+    border-radius: 10px;
+    filter: none;
+  }
+  .background {
+    backdrop-filter: blur(90px);
   }
 }

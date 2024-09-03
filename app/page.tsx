@@ -18,19 +18,19 @@ import { VscVscode } from "react-icons/vsc";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="border-2 border-sky-500 p-4 rounded-lg">
+    <div className="flex items-center justify-center h-screen background">
+      <div className="items-center justify-center profile">
         <div className="flex justify-center p-6">
           <Image
             src="/me.png"
             alt="Hello! This is an image of me!"
             width={500}
             height={500}
-            className="justify-center rounded-xl transition transform hover:scale-110"
+            className="justify-center rounded-xl"
           />
         </div>
         <div className="flex justify-center">
-          <h1 className="font-bold text-sky-500 text-4xl mb-6">Mahanvali</h1>
+          <h1 className="font-bold text-white text-4xl mb-6">Mahanvali</h1>
         </div>
         <div className="flex justify-center">
           <h1 className="text-white text-xl mb-6 justify-center">
@@ -38,7 +38,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <footer className="w-full bg-neutral-900 flex justify-center">
+        <footer className="w-full flex justify-center pb-8">
           <a href="https://github.com/Mahanvali" className="mx-4 text-white">
             <FaGithub size={30} />
           </a>
@@ -57,6 +57,7 @@ export default function Home() {
         </footer>
       </div>
     </div>
+    
   );
 }
 
