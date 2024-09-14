@@ -1,10 +1,14 @@
+"use client";
+
 import Image from "next/image";
+import Discord from "@/app/Discord";
 import {
   FaGithub,
   FaYoutube,
   FaLinkedin,
   FaLinux,
   FaGit,
+  FaDiscord,
 } from "react-icons/fa";
 import { FaJava, FaPython } from "react-icons/fa6";
 import {
@@ -30,34 +34,44 @@ export default function Home() {
           />
         </div>
         <div className="flex justify-center">
-          <h1 className="font-bold text-white text-4xl mb-6">Mahanvali</h1>
+          <h1 className="font-bold font-mono text-white text-4xl mb-6 name">
+            Mahanvali 🍣
+          </h1>
         </div>
         <div className="flex justify-center">
-          <h1 className="text-white text-xl mb-6 justify-center">
+          <h1 className="text-white font-mono text-xl mb-6 justify-center">
             Programmer & Developer
           </h1>
         </div>
 
-        <footer className="w-full flex justify-center pb-8">
-          <a href="https://github.com/Mahanvali" className="mx-4 text-white">
+        <div className="flex justify-center">
+          <h1 className="text-blue-50 font-mono text-xl mb-6 justify-center">
+            <Discord />
+          </h1>
+        </div>
+
+        <footer className="w-full flex justify-center pb-6">
+          <a
+            href="https://github.com/Mahanvali"
+            className="mx-4 text-white transition transform hover:scale-110"
+          >
             <FaGithub size={30} />
           </a>
           <a
             href="https://youtube.com/@Mahanvalied"
-            className="mx-4 text-white"
+            className="mx-4 text-white transition transform hover:scale-110"
           >
             <FaYoutube size={30} />
           </a>
           <a
-            href="https://www.linkedin.com/in/mahan-mohammadvali-1683362a6/"
-            className="mx-4 text-white"
+            href="https://discord.com/users/862571259963768842"
+            className="mx-4 text-white transition transform hover:scale-110"
           >
-            <FaLinkedin size={30} />
+            <FaDiscord size={30} />
           </a>
         </footer>
       </div>
     </div>
-    
   );
 }
 

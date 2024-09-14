@@ -20,4 +20,8 @@
   .background {
     backdrop-filter: blur(90px);
   }
+  .name {
+    font-weight: 500;
+    font-style: italic;
+  }
 }
